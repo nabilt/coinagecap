@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Installer>
+    <Name>CoinageCap</Name>
+    <Version>0.0.1</Version>
+    <Title>CoinageCap</Title>
+    <ProductUrl>https://github.com/nabilt/coinagecap</ProductUrl>
+    <InstallerWindowIcon>installericon</InstallerWindowIcon>
+    <InstallerApplicationIcon>installericon</InstallerApplicationIcon>
+    <RunProgram>CoinageCap.exe</RunProgram>
+</Installer>

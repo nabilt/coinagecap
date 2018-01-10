@@ -1,0 +1,3 @@
+copy ..\..\build-CoinTracker-Desktop_Qt_5_10_0_MSVC2017_64bit-Release\release\CoinageCap.exe packages\com.nabilt.coinagecap\data\
+windeployqt --qmldir ..\  --dir packages\com.nabilt.coinagecap\data packages\com.nabilt.coinagecap\data\CoinageCap.exe
+binarycreator.exe --offline-only -c installer_config.xml -p packages -t D:\Qt\Tools\QtInstallerFramework\3.0\bin\installerbase.exe CoinageCapInstaller.exe
